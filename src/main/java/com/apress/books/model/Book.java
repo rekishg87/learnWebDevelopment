@@ -1,5 +1,7 @@
 package com.apress.books.model;
 
+import java.util.List;
+
 /**
  * Created by Rekish on 9/11/2015.
  */
