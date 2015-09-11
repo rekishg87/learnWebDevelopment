@@ -1,13 +1,16 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="learnWebDevelopment:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/learnWebDevelopment_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/learnWebDevelopment</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="learnWebDevelopment/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="learnWebDevelopment" />
         </element>
       </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/learnWebDevelopment/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="learnWebDevelopment/web/Web" />
     </root>
   </artifact>
 </component>
